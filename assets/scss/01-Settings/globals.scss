@@ -1,0 +1,164 @@
+/*****
+
+   Variables
+ 
+**************/
+:root {
+
+    /* Colour Settings */
+    
+    --primary-blue: #2C74B3;
+    --primary-green: #11A797;
+    --primary-red: #EFC2BA;
+    --primary-orange: #FFDABA;
+    --primary-yellow: #ffc726;
+
+
+    --primary-black: #000;
+    --primary-dark-gray: rgb(33, 52, 56);
+    --primary-gray: rgb(211, 211, 211);
+    --primary-white: #ffffff;
+    --off-white: rgb(250, 255, 248);
+    --primary-transparent: rgba(255, 255, 255, 0);
+
+    --primary-color: inherit;
+    --secondary-color: inherit;
+    --accent-color: inherit;
+
+
+    /* Font Settings */
+    --primary-font: inherit;
+    --secondary-font:  inherit;
+    --cursive-font:  inherit;
+
+
+    /* Body  */
+    --body-background-color: inherit;
+    --body-article-color: inherit;
+    --body-border-radius: 0px 0px 0  0;
+    --entry-meta-color: inherit;
+
+    /* Header Properties */ 
+    --full-header-background: inherit;
+    --top-header-background-color: inherit;
+    --main-header-background-color: inherit;
+    --bottom-header-background-color:inherit;;
+    --transparent-header-background: inherit;
+
+    --mobile-header-top-background: inherit;
+    --mobile-header-dropdown: inherit;
+
+    --toggle-color: inherit;
+    --social-element-color: inherit;
+    --cart-fill-color: inherit;
+    --cart-border-color: inherit;
+    --search-color: inherit;
+    --member-login: inherit;
+
+    /** MAIN MENU **/
+    
+    --main-menu-color: inherit;
+    --main-menu-background-color: inherit;
+    --main-menu-sub-menu-background-color: inherit;
+
+    --main-menu-hover: inherit
+    --main-menu-hover-background: inherit;
+
+    --main-menu-font: var(--primary-font);
+    --main-menu-font-size: inheritrem;
+    --main-menu-weight: inherit;
+    --main-menu-border: inherit;
+    --main-menu-text-transform: uppercase;
+
+    --main-menu-border-size: inherit;
+    --main-menu-border-style : inherit;
+    --main-menu-border-color: inherit;
+    --main-menu-text-transform: inherit;
+    --main-menu-border-radius: inherit;
+
+    --main-menu-dropdown-back: inherit;
+    --sub-menu-background: inherit;
+
+    --sticky-header-color:inherit;
+    --sticky-header-color-active: inherit;
+ 
+
+    /** Footer **/
+    --full-footer-background-color: inherit;
+    --top-footer-color: inherit;
+    --main-footer-color: inherit;
+    --main-footer-border-size: 0;
+    --main-footer-border-color: inherit;
+    --below-footer-color: inherit;
+
+    --primary-footer-font-color: inherit;
+    --footer-font-size: 1rem;
+
+    /** Links **/
+    --main-link-color: inherit;
+    --main-link-hover: inherit;
+    --main-link-hover-decoration: inherit;
+
+
+    --site-title-color: inherit
+    --site-title-hover: inherit;
+    
+    --footer-link-color: inherit;
+    --footer-menu-hover-link: inherit;
+
+    /** Headings **/
+    --heading-font: var(--cursive-font);
+    --page-title-color: inherit;
+    
+    --h1-color: var(--primary-yellow) ;
+    --h1-font-family: var(--cursive-font);
+    --h1-font-size: 5rem;
+    --h1-font-weight: inherit;
+    --h1-line-height: inherit;
+    --h1-text-transform: inherit;
+
+    --h2-color: inherit
+    --h2-font-family: var(--heading-font);
+    --h2-font-size: inherit;
+    --h2-font-weight: inherit;
+    --h2-line-height: inherit;
+    --h2-text-transform: inherit;
+
+    /** Button **/
+    --primary-button-background-color: var(--gradient-yellow);
+    --primary-button-background-hover: inherit;
+    --primary-button-text-color: inherit;
+    --primary-button-text-transform: inherit;
+    --primary-button-font-weight: inherit;
+    --primary-button-text-transform: inherit;
+    --primary-button-font-size: inherit;
+
+    --header-button-background-color: var(--gradient-yellow);
+    --header-button-text-color: inherit;
+    --header-button-background-hover:inherit;
+    --header-button-text-hover: inherit;
+    --header-button-text-transform: inherit;
+    --header-button-font-weight: inherit;
+    --header-button-font-size: inherit;
+
+
+    /** Icon Colors **/
+    --icon-color: inherit;
+
+    /** Woo Commerce **/
+    --woo-add-cart-color: inherit;
+    --woo-price-color: inherit;
+
+    /** Astra Global Colors **/
+    --ast-global-color-0: inherit;
+    --ast-global-color-1: inherit;
+    --ast-global-color-2: inherit         /* Heading Color */
+    --ast-global-color-3: inherit;      /* Paragraph Color */
+    --ast-global-color-4: #F5F5F5;
+    --ast-global-color-5: #FFFFFF;
+    --ast-global-color-6: #F2F5F7;
+    --ast-global-color-7: #424242;
+    --ast-global-color-8: #000000;
+}
+
+ body { font-size: 18px; }
