@@ -32,6 +32,8 @@ h2 {
 }
 
 .entry-content h2 { 
+    padding: .5rem 0;
+    background: linear-gradient(90deg, var(--primary-white), var(--primary-dark-purple), var(--primary-white));
     color: var(--h2-color);
     font-weight: 700;
    
