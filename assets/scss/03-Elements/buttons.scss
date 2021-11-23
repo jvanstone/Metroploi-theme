@@ -15,7 +15,7 @@
     padding-right: 30px;
     padding-bottom: 15px;
     padding-left: 30px;
-    font-family: ivar(--primary-button-font-family);
+    font-family: var(--primary-button-font-family);
     font-weight:  var(--primary-button-font-weight);
     line-height: 1;
     text-align: center;
@@ -71,4 +71,11 @@ button a:hover, .ast-button a:hover, .wp-block-button .wp-block-button__link:hov
    background: var(--header-button-background-hover);
    color: var(--header-button-text-hover);
    
+}
+
+/** Woo Commmerce Buttons **/
+
+.woocommerce a.button, .woocommerce button.button, .woocommerce .woocommerce-message a.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce input.button, .woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled], .woocommerce input.button:disabled:hover, .woocommerce input.button:disabled[disabled]:hover, .woocommerce #respond input#submit, .woocommerce button.button.alt.disabled, .wc-block-grid__products .wc-block-grid__product .wp-block-button__link, .wc-block-grid__product-onsale {
+	color: #ffffff;
+	background-color: var(--primary-button-background-color);
 }
