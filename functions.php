@@ -1,10 +1,10 @@
 <?php
 /**
- * American Lanterns Theme functions and definitions
+ * Metroploi Theme functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package AmericanLanterns
+ * @package MetroPloi
  * @since 1.0.0
  */
 
@@ -44,3 +44,4 @@ function add_editor_styles_sub_dir() {
 	);
 }
 add_action( 'after_setup_theme', 'add_editor_styles_sub_dir' );
+
