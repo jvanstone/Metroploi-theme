@@ -8,3 +8,10 @@ Import Fonts
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url(assets/fonts/Noto_Serif/NotoSerif-Regular.ttf) format('truetype');
+    font-display: swap;
+}

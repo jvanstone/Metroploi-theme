@@ -28,7 +28,7 @@
 
     /* Font Settings */
     --primary-font: inherit;
-    --secondary-font:  inherit;
+    --secondary-font:  'Noto Serif', serif;
     --cursive-font:  inherit;
 
 
@@ -40,7 +40,7 @@
 
     /* Header Properties */ 
     --full-header-background: inherit;
-    --top-header-background-color: inherit;
+    --top-header-background-color: var(--primary-dark-gray);
     --main-header-background-color: inherit;
     --bottom-header-background-color:inherit;;
     --transparent-header-background: inherit;
@@ -50,7 +50,7 @@
 
     --toggle-color: inherit;
     --social-element-color: inherit;
-    --cart-fill-color: inherit;
+    --cart-fill-color: var(--primary-white);
     --cart-border-color: inherit;
     --search-color: inherit;
     --member-login: inherit;
@@ -61,7 +61,7 @@
     --main-menu-background-color: inherit;
     --main-menu-sub-menu-background-color: inherit;
 
-    --main-menu-hover: inherit
+    --main-menu-hover: inherit;
     --main-menu-hover-background: inherit;
 
     --main-menu-font: var(--primary-font);
@@ -84,14 +84,14 @@
  
 
     /** Footer **/
-    --full-footer-background-color: inherit;
+    --full-footer-background-color: var(--primary-dark-gray);
     --top-footer-color: inherit;
     --main-footer-color: inherit;
     --main-footer-border-size: 0;
     --main-footer-border-color: inherit;
     --below-footer-color: inherit;
 
-    --primary-footer-font-color: inherit;
+    --primary-footer-font-color:  var(--primary-gray);;
     --footer-font-size: 1rem;
 
     /** Links **/
@@ -100,24 +100,24 @@
     --main-link-hover-decoration: inherit;
 
 
-    --site-title-color: inherit
+    --site-title-color: inherit;
     --site-title-hover: inherit;
     
     --footer-link-color: inherit;
     --footer-menu-hover-link: inherit;
 
     /** Headings **/
-    --heading-font: var(--cursive-font);
+    --heading-font: var(--secondary-font);
     --page-title-color: inherit;
     
     --h1-color: var(--primary-yellow) ;
-    --h1-font-family: var(--cursive-font);
+    --h1-font-family: var(--secondary-font);
     --h1-font-size: 5rem;
     --h1-font-weight: inherit;
     --h1-line-height: inherit;
     --h1-text-transform: inherit;
 
-    --h2-color: inherit
+    --h2-color: inherit;
     --h2-font-family: var(--heading-font);
     --h2-font-size: inherit;
     --h2-font-weight: inherit;
@@ -152,7 +152,7 @@
     /** Astra Global Colors **/
     --ast-global-color-0: inherit;
     --ast-global-color-1: inherit;
-    --ast-global-color-2: inherit         /* Heading Color */
+    --ast-global-color-2: inherit;         /* Heading Color */
     --ast-global-color-3: inherit;      /* Paragraph Color */
     --ast-global-color-4: #F5F5F5;
     --ast-global-color-5: #FFFFFF;
