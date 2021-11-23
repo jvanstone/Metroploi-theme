@@ -6,7 +6,7 @@
 
 .ast-woocommerce-container {
     padding: 0px 0;
-    background-color: var(--primary-black);
+    background-color: var(--primary-white);
 
 
     .woocommerce-breadcrumb { display: none; }
@@ -184,4 +184,13 @@
     }
     //@import 'product-tags.scss';
 
+}
+
+
+/*** Whats New Product List **/
+
+.theme-twentytwenty .wc-block-grid.has-4-columns .wc-block-grid__product, .wc-block-grid.has-4-columns .wc-block-grid__product {
+	flex: 1 0 25%;
+	max-width: 22%;
+    justify-content: center !important;
 }
