@@ -6,9 +6,12 @@
 **************/
 
 header#masthead {
+    
 
     #ast-desktop-header, #ast-mobile-header{ 
         background: var(--full-header-background);
+        -webkit-box-shadow: 3px 16px 11px 5px rgba(0,0,0,0.66); 
+        box-shadow: 3px 1px 20px 3px var(--primary-light-purple);
     }
 
     .ast-header-account-link.ast-account-action-link, .ast-header-account-link.ast-account-action-login, .ast-header-account-link.ast-account-action-login.customize-unpreviewable, .ast-header-break-point .ast-header-account-link {
@@ -61,6 +64,7 @@ header#masthead {
       
     
         .ast-cart-menu-wrap, .ast-addon-cart-wrap { 
+            background: transparent;
         
             .count:after, .ast-icon-shopping-cart:after {
                 border-width: 0;
@@ -71,7 +75,7 @@ header#masthead {
                 color: var(--cart-fill-color);
                 border-color: var(--cart-border-color);
                 font-weight: var(--header-button-font-weight)!important;
-                margin-right: 15px;
+                margin-right: 0px;
               
             }
 
@@ -79,21 +83,21 @@ header#masthead {
                 &:before {
                     font-family:dashicons;
                     content: "\f174";
+                    color: var(--primary-light-purple);
                 }
-                font-weight: 700;
+                font-weight: 600;
                 position: relative;
                 display: inline-block;
                 vertical-align: middle;
                 text-align: center;
-               // min-width: 3em; 
-               // min-height: 3em; 
-                font-size: 1.2rem;
+              
+                font-size: 1rem;
                 line-height: 2;
-             
-               // border-radius: 0 0 .3em .3em;
+                background: transparent;
+
                 border-width: 0px;
-               // border-style: solid;
-               padding: 0 .4em;
+                color: var(--primary-light-purple);
+               
             }
         }
         .woocommerce-mini-cart__total, .widget_shopping_cart .cart_list a, .woocommerce .ast-site-header-cart .widget_shopping_cart .cart_list a {

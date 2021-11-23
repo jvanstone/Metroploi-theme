@@ -12,10 +12,12 @@
     --primary-red: #EFC2BA;
     --primary-orange: #FFDABA;
     --primary-yellow: #ffc726;
+    --primary-dark-purple: #AC9FBB;
+    --primary-light-purple: #DDBDD5;
 
 
-    --primary-black: #000;
-    --primary-dark-gray: rgb(33, 52, 56);
+    --primary-black: #1D1e2C;
+    --primary-dark-gray: #59656F;
     --primary-gray: rgb(211, 211, 211);
     --primary-white: #ffffff;
     --off-white: rgb(250, 255, 248);
@@ -57,11 +59,11 @@
 
     /** MAIN MENU **/
     
-    --main-menu-color: inherit;
+    --main-menu-color: var(--primary-black);
     --main-menu-background-color: inherit;
     --main-menu-sub-menu-background-color: inherit;
 
-    --main-menu-hover: inherit;
+    --main-menu-hover: var(--primary-dark-purple);
     --main-menu-hover-background: inherit;
 
     --main-menu-font: var(--primary-font);
@@ -70,7 +72,7 @@
     --main-menu-border: inherit;
     --main-menu-text-transform: uppercase;
 
-    --main-menu-border-size: inherit;
+    --main-menu-border-size: 0;
     --main-menu-border-style : inherit;
     --main-menu-border-color: inherit;
     --main-menu-text-transform: inherit;
@@ -110,7 +112,7 @@
     --heading-font: var(--secondary-font);
     --page-title-color: inherit;
     
-    --h1-color: var(--primary-yellow) ;
+    --h1-color: var(--primary-black) ;
     --h1-font-family: var(--secondary-font);
     --h1-font-size: 5rem;
     --h1-font-weight: inherit;
@@ -125,16 +127,16 @@
     --h2-text-transform: inherit;
 
     /** Button **/
-    --primary-button-background-color: var(--gradient-yellow);
-    --primary-button-background-hover: inherit;
-    --primary-button-text-color: inherit;
+    --primary-button-background-color: var(--primary-dark-purple);
+    --primary-button-background-hover: var(--primary-dark-gray);
+    --primary-button-text-color: var(--primary-white);
     --primary-button-text-transform: inherit;
     --primary-button-font-weight: inherit;
     --primary-button-text-transform: inherit;
     --primary-button-font-size: inherit;
 
-    --header-button-background-color: var(--gradient-yellow);
-    --header-button-text-color: inherit;
+    --header-button-background-color: var(--primary-dark-gray);
+    --header-button-text-color: var(--primary-white);
     --header-button-background-hover:inherit;
     --header-button-text-hover: inherit;
     --header-button-text-transform: inherit;
@@ -150,8 +152,8 @@
     --woo-price-color: inherit;
 
     /** Astra Global Colors **/
-    --ast-global-color-0: inherit;
-    --ast-global-color-1: inherit;
+    --ast-global-color-0: var(--primary-dark-purple);
+    --ast-global-color-1: var(--primary-light-purple);
     --ast-global-color-2: inherit;         /* Heading Color */
     --ast-global-color-3: inherit;      /* Paragraph Color */
     --ast-global-color-4: #F5F5F5;

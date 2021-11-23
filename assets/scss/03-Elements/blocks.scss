@@ -15,3 +15,20 @@
   margin-bottom: 4rem;
   padding: 4rem 0;
 }
+
+.add-padding  {
+  
+  padding: 0 10rem;
+ 
+
+}
+
+
+
+
+.block-gradient { 
+  margin: .5rem 0;
+  padding: 5rem 0 0 0;
+  background: linear-gradient(25deg, var(--primary-light-purple), var(--primary-white), var(--primary-light-purple));
+  align-self: stretch;
+}

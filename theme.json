@@ -4,24 +4,24 @@
       "color": {
         "palette": [
           {
-            "name": "Theme Color 1",
-            "slug": "ast-global-color-0",
-            "color": "var(ast-global-color-0)"
+            "name": "Dark Purple",
+            "slug": "dark-purple",
+            "color": "AC9FBB"
           },
           {
-            "name": "Theem Color 2",
-            "slug": "ast-global-color-1",
-            "color": "var(--ast-global-color-1)"
+            "name": "Light Purple",
+            "slug": "light-purple",
+            "color": "#DDBDD5"
           },
           {
-            "name": "Theme Color 3",
-            "slug": "ast-global-color-2",
-            "color": "var(--ast-global-color-2)"
+            "name": "Gray",
+            "slug": "gray",
+            "color": "#59656F;"
           },
           {
-            "name": "Theme Color 4",
-            "slug": "ast-global-color-3",
-            "color": "var(--ast-global-color-3)"
+            "name": "Black",
+            "slug": "black",
+            "color": "#000"
           },
           {
             "name": "Theme Color 5",
