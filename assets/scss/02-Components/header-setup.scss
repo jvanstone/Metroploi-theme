@@ -46,6 +46,7 @@ header#masthead {
     /** Cart **/
     
     .ast-site-header-cart, .woocommerce .ast-site-header-cart  {
+       
         position: relative;
         list-style-type: none;
         margin-left: 0px;
@@ -57,26 +58,12 @@ header#masthead {
         font-size: var(--header-button-font-size);
         text-transform: var(--header-button-text-transform);
     
-        .ast-cart-menu-wrap .count {
-            font-weight: 700;
-            position: relative;
-            display: inline-block;
-            vertical-align: middle;
-            text-align: center;
-            min-width: 1.9em; 
-            min-height: 1.3em; 
-            font-size: .5em;
-            line-height: 1.8;
-         
-            border-radius: 0 0 .3em .3em;
-            border-width: 2px;
-            border-style: solid;
-            padding: 0 .4em;
-        }
+      
     
         .ast-cart-menu-wrap, .ast-addon-cart-wrap { 
         
-            .count, .count:after, .ast-icon-shopping-cart:after {
+            .count:after, .ast-icon-shopping-cart:after {
+                border-width: 0;
                 color: var(--cart-fill-color);
                 border-color: var(--cart-fill-color);
             }
@@ -85,6 +72,28 @@ header#masthead {
                 border-color: var(--cart-border-color);
                 font-weight: var(--header-button-font-weight)!important;
                 margin-right: 15px;
+              
+            }
+
+            .count {
+                &:before {
+                    font-family:dashicons;
+                    content: "\f174";
+                }
+                font-weight: 700;
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center;
+               // min-width: 3em; 
+               // min-height: 3em; 
+                font-size: 1.2rem;
+                line-height: 2;
+             
+               // border-radius: 0 0 .3em .3em;
+                border-width: 0px;
+               // border-style: solid;
+               padding: 0 .4em;
             }
         }
         .woocommerce-mini-cart__total, .widget_shopping_cart .cart_list a, .woocommerce .ast-site-header-cart .widget_shopping_cart .cart_list a {
