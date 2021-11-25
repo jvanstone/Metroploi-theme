@@ -6,7 +6,7 @@
           {
             "name": "Dark Purple",
             "slug": "dark-purple",
-            "color": "AC9FBB"
+            "color": "#AC9FBB"
           },
           {
             "name": "Light Purple",
@@ -16,17 +16,17 @@
           {
             "name": "Gray",
             "slug": "gray",
-            "color": "#59656F;"
+            "color": "#59656F"
           },
           {
             "name": "Black",
             "slug": "black",
-            "color": "#000"
+            "color": "#000000"
           },
           {
-            "name": "Theme Color 5",
-            "slug": "ast-global-color-4",
-            "color": "var(--ast-global-color-4)"
+            "name": "White ",
+            "slug": "white",
+            "color": "#ffffff"
           },
           {
             "name": "Theme Color 6",

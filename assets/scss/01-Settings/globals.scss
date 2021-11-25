@@ -102,8 +102,8 @@
     --main-link-hover-decoration: inherit;
 
 
-    --site-title-color: inherit;
-    --site-title-hover: inherit;
+    --site-title-color: var(--primary-black);
+    --site-title-hover: var(--primary-light-purple);
     
     --footer-link-color: inherit;
     --footer-menu-hover-link: inherit;
@@ -112,7 +112,7 @@
     --heading-font: var(--secondary-font);
     --page-title-color: inherit;
     
-    --h1-color: var(--primary-black) ;
+    --h1-color: var(--primary-light-purple) ;
     --h1-font-family: var(--secondary-font);
     --h1-font-size: 5rem;
     --h1-font-weight: inherit;

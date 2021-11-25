@@ -14,17 +14,17 @@
   margin: 0;
   margin-bottom: 4rem;
   padding: 4rem 0;
-}
 
-.add-padding  {
+  p { font-family: var(--secondary-font);}
+
   
-  padding: 0 10rem;
- 
-
 }
 
+ .add-padding  {   padding: 0 0rem; } 
 
 
+
+.slide-content p { font-family: var(--secondary-font);}
 
 .block-gradient { 
   margin: .5rem 0;
