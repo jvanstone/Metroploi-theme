@@ -135,6 +135,7 @@ h2.entry-title a{font-weight:800 !important}
 .no-underline a{text-decoration:none !important}
 .entry-content ul{margin:2rem}
 .entry-content ul li{margin-left:1rem;padding-left:1rem}
+ul ul ul{list-style-type:none !important}
 .margin-top{margin-top:5rem}
 .minus-margin-top{margin-top:-5rem}
 .no-margin-top{margin-top:0 !important}
