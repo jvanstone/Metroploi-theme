@@ -74,4 +74,9 @@
     }
  
     .ast-woocommerce-container {padding: 0 1rem!important;}
+
+    .wc-block-grid__product {
+        flex-basis: 100% !important;
+        max-width: none !important;
+    }
  }
