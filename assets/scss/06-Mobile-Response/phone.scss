@@ -10,15 +10,11 @@
         background-position: center right; 
     } 
 
-
     p.contain-width {
         padding: 0 1rem 0rem 1rem;
-
    }
 
-    .hide-column {
-        display: none;
-    }
+    .hide-column { display: none; }
 
     .hide-in-mobile { 
         display: none;
@@ -39,9 +35,12 @@
         padding: 1rem;
     }
    
-    .wp-block-columns, .wp-block-column {
-        margin: 0rem 0;
-        padding: 1rem 1rem;
+    .wp-block-columns {
+        
+        .wp-block-column {
+            margin: 0rem 0;
+            padding: 1rem 1rem;
+       }
     }
 
     .wp-block-columns.has-background {
@@ -58,10 +57,6 @@
        padding: 0;
    }
 
-   .section {
-       margin: 5% 0%;
-       padding: 0 1rem;
-   }
   
    .footer-widget-area {
        margin: 1rem 0;
@@ -73,7 +68,7 @@
     box-sizing: border-box;
     }
  
-    .ast-woocommerce-container {padding: 0 1rem!important;}
+    .ast-woocommerce-container { padding: 0 1rem!important; }
 
     .wc-block-grid__product {
         flex-basis: 100% !important;

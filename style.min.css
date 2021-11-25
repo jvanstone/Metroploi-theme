@@ -242,11 +242,10 @@ h1{font-size:calc(var(--h1-font-size) * .65) !important}
 .entry-content{padding:0 .75rem}
 .entry-content p{padding:0 .25rem}
 .front-header{padding:1rem}
-.wp-block-columns,.wp-block-column{margin:0;padding:1rem 1rem}
+.wp-block-columns .wp-block-column{margin:0;padding:1rem 1rem}
 .wp-block-columns.has-background{padding:1.25em 0}
 .ast-container,.ast-container-fluid{margin-left:auto;margin-right:auto;padding-left:0;padding-right:0}
 .wp-block-group .wp-block-group{padding:0}
-.section{margin:5% 0;padding:0 1rem}
 .footer-widget-area{margin:1rem 0;padding:1rem;border-top:1px solid var(--primary-white)}
 .woocommerce ul.products li.product,.woocommerce-page ul.products li.product{-webkit-box-sizing:border-box;box-sizing:border-box}
 .ast-woocommerce-container{padding:0 1rem !important}
