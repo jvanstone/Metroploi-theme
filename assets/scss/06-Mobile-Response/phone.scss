@@ -73,8 +73,5 @@
     box-sizing: border-box;
     }
  
-    .woocommerce-page ul.products li.product:nth-child(n) {
-        margin: 0 0 11.5%!important;
-        width: 100%!important;
-    }
+    .woocommerce {padding: 0 1rem;}
  }

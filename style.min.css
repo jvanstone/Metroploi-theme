@@ -249,7 +249,7 @@ h1{font-size:calc(var(--h1-font-size) * .65) !important}
 .section{margin:5% 0;padding:0 1rem}
 .footer-widget-area{margin:1rem 0;padding:1rem;border-top:1px solid var(--primary-white)}
 .woocommerce ul.products li.product,.woocommerce-page ul.products li.product{-webkit-box-sizing:border-box;box-sizing:border-box}
-.woocommerce-page ul.products li.product:nth-child(n){margin:0 0 11.5% !important;width:100% !important}
+.woocommerce{padding:0 1rem}
 }@keyframes fadeIn{0%{opacity:0}
 100%{opacity:1}
 }@-webkit-keyframes fadeIn{0%{opacity:0}
